@@ -8,7 +8,9 @@ The basic idea of analyzing the Zomato dataset is to get a fair idea about the f
 
 “Just so that you have a good meal the next time you step out”
 
-The data is accurate to that available on the zomato website until 15 March 2019. The data was scraped from Zomato in two phase. After going through the structure of the website I found that for each neighborhood there are 6-7 category of restaurants viz. Buffet, Cafes, Delivery, Desserts, Dine-out, Drinks & nightlife, Pubs and bars.
+We were able scrape the Zomato website successful and were able to extract around 3000 records.
+
+
 
 ## Methodology 🛠️
 ### Phase I,
@@ -43,3 +45,16 @@ I was always astonished by how each of the restaurants are able to keep up the p
 ✔️ Rate Prediction\
 ✔️ Restraurant Prediction\
 ✔️ Recommendation System\
+
+
+## Images 
+
+![image](https://user-images.githubusercontent.com/123991455/235981550-08cef644-e16d-4742-bf34-fd3622e8670d.png)
+
+![image](https://user-images.githubusercontent.com/123991455/235981643-18f4980e-4027-49bf-ac16-95cd88426a3c.png)
+
+![image](https://user-images.githubusercontent.com/123991455/235982036-567be9f4-0b1b-43bd-b346-34d6ee9c31c9.png)
+
+![image](https://user-images.githubusercontent.com/123991455/235982186-69a4c94e-d935-4a3e-9666-e875d0361417.png)
+
+
