@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devive-width", initial-scale="1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="https://searchlogovector.com/wp-content/uploads/2019/05/zomato-logo-vector.png" width="75" height="75"/></a>
+          <span class="ml-3 text-x1"><b>Zomato</b></span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          
+        </nav>
+        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" 
+        onclick = "window.location.href = '{{ url_for('inputs')}}';">Recommendation Model
+           
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+         
+      </div>
+    </header>
+      </style>
+      </head>
+      <body style="font-family:Verdana;color:#aaaaaa;">
+      
+      <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+        <h1>Recommendation Model</h1>
+      </div>
+      
+<div class="result">
+        <h5>Based On your Preffered Location</h5>
+    	<label>Average Price for 1:</label><br>
+        {{ average_text }}<br><br>
+        <label>Popular Cuisine:</label><br>
+        {{ popular_text }}<br><br>
+        <label>Most Popular Restaurant:</label><br>
+        {{ rest_text }}<br><br>
+        <label>Serves:</label><br>
+        {{ serves_text }}<br><br>
+        <label>Popular Restaurant that serves your Cuisine:</label><br>
+        {{ poprest_text }}<br><br>
+        <hr>
+        <h5>Recommendations</h5>
+        <label>Recommended Price:</label><br>
+        {{ predict1 }}<br><br>
+        <label>Recommended Location:</label><br>
+        {{ predict2 }}<br>
+
+</div>
+
+<style>
+    .result {
+  padding: 70px 0;
+  text-align: center;
+  font-size: 20px;
+}
+    h5{
+       color: black;
+       font-size: 40px;
+    }
+</style>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devive-width", initial-scale="1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="https://searchlogovector.com/wp-content/uploads/2019/05/zomato-logo-vector.png" width="75" height="75"/></a>
+          <span class="ml-3 text-x1"><b>Zomato</b></span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+           
+        </nav>
+       
+          
+      </div>
+    </header>
+      </style>
+      </head>
+      <body style="font-family:Verdana;color:#aaaaaa;">
+      
+      <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+        <h1>Recommendation Model</h1>
+      </div>
+
+      <style>
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    color: black;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    color: black;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: rgba(95,160,135,0.8);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+
+    label {
+	cursor: pointer;
+	color: brown;
+}
+</style>
+
+<h1 style="color:rgba(38,53,102,0.8);">Please Provide the following inputs:</h1>
+
+<div class="input">
+        <form action="{{ url_for('predict')}}" method="post">
+        <label for="cusine"><b>Cusine:</b></label><br>
+        <!-- <input type="text" id="cusine" name="cusine" placeholder="Cusine" required="required" /><br> -->
+        <select name="cusine" id="cusine"   onfocus="this.selectedIndex = -1;">
+          {% for item in cuisines %}
+          <option value="{{ item }}">{{item}}</option>
+          {% endfor %}
+        </select>
+           <label for="Location"><b>Prefered Location:</b></label><br>
+        <!-- <input type="text" id="Location" name="Location" placeholder="Prefered Location" required="required" /><br> -->
+        <select name="Location" id="Location"   onfocus="this.selectedIndex = -1;">
+          {% for item in locations %}
+          <option value="{{ item }}">{{item}}</option>
+          {% endfor %}
+        </select>
+        <label for="price"><b>Prefered Price for 1:</b></label><br>
+        <input type="number" id="price" name="price" placeholder="Prefered Price for 1" required="required" /><br>
+      
+        <input type="submit" value="Submit">
+        </form>
+    </div>

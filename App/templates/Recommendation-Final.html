@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=devive-width" , initial-scale="1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <title>Result</title>
+  <style>
+    h5 {
+      color: rgb(24, 24, 24);
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    .containerBox {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100vw;
+      height: 100%;
+    }
+
+    .leftAlign {
+      width: 50vw;
+      padding: 50px 100px;
+    }
+
+    .rightAlign {
+      width: 50vw;
+      padding: 50px;
+
+    }
+
+    .textStyle {
+      font-size: 18px;
+      color: rgb(28, 28, 28);
+      font-weight: 500;
+    }
+
+    .RecommendationBackground {
+      width: 100vw;
+      height: 15vw;
+      background-image: url("https://images.pexels.com/photos/1765005/pexels-photo-1765005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+    }
+
+    .TextCenter {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      font-size: 50px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      padding-top: 5vw;
+      text-shadow: 2px 2px #414141;
+      width: 100vw;
+      height: 15vw;
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+
+<body style="font-family:Verdana;color:#aaaaaa;">
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="https://searchlogovector.com/wp-content/uploads/2019/05/zomato-logo-vector.png" width="75"
+          height="75" /></a>
+      <span class="ml-3 text-x1"><b>Zomato</b></span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+      </nav>
+      
+
+    </div>
+  </header>
+
+
+
+  <div class="RecommendationBackground">
+    <div class="TextCenter">
+      Top Recommendation
+    </div>
+  </div>
+
+  <div class="containerBox">
+    <div class="leftAlign">
+      <div class="mb-2">
+        <h5>Based On Your Preffered Location</h5>
+      </div>
+      <table>
+        <tr>
+          <td class="textStyle">Average Price for 1</td>
+          <td> {{ average_text }}</td>
+        </tr>
+        <tr>
+          <td class="textStyle">Popular Cuisine</td>
+          <td> {{ popular_text }}</td>
+        </tr>
+        <tr>
+          <td class="textStyle"> Most Popular Restaurant</td>
+          <td> {{ rest_text }}</td>
+        </tr>
+
+        <tr>
+          <td class="textStyle">Serves </td>
+          <td> {{ serves_text }}</td>
+        </tr>
+
+        <tr>
+          <td class="textStyle">Popular Restaurant that serves your Cuisine </td>
+          <td> {{ poprest_text }} </td>
+        </tr>
+      </table>
+    </div>
+    <div class="rightAlign">
+      <div>
+        <h5>Recommendations</h5>
+      </div>
+      <table>
+        <tr>
+          <td class="textStyle">Recommended Price</td>
+          <td> {{ predict1 }}</td>
+        </tr>
+        <tr>
+          <td class="textStyle">Recommended Location</td>
+          <td> {{ predict2 }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
