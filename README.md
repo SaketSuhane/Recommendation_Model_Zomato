@@ -29,13 +29,6 @@ Worked on different models and Random Forest was the best suitable
 Model Deployment
 Deployed the model on HTML webpage
 
-![image](https://user-images.githubusercontent.com/123991455/235980529-bbf58c74-0186-44ef-8530-6b6dcf6b9be8.png)
-
-
-![image](https://user-images.githubusercontent.com/123991455/235980391-3965315d-1c4e-4044-b790-6d7e7a476ff1.png)
-
-
-
 ## Inspiration
 I was always astonished by how each of the restaurants are able to keep up the pace inspite of that cutting edge competition. And what factors should be kept in mind if someone wants to open new restaurant. Does the demography of an area matters? Does location of a particular type of restaurant also depends on the people living in that area? Does the theme of the restaurant matters? Is a food chain category restaurant likely to have more customers than its counter part? Are any neighborhood similar ? If two neighborhood are similar does that mean these are related or particular group of people live in the neighborhood or these are the places to it? What kind of a food is more popular in a locality. Do the entire locality loves vegetarian food. If yes then is that locality populated by a particular sect of people for eg. Jain, Marwaris, Gujaratis who are mostly vegetarian. There are infacts dozens of question in my mind. lets try to find out the answer with this dataset.
 
