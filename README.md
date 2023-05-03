@@ -1,4 +1,4 @@
-# Recommendation_Model
+![image](https://user-images.githubusercontent.com/123991455/235980695-c5be9af5-2b50-4cc7-8577-b54ca7fd61b8.png)
 
 ## Context
 I was always fascinated by the food culture of Bengaluru. Restaurants from all over the world can be found here in Bengaluru. From United States to Japan, Russia to Antarctica, you get all type of cuisines here. Delivery, Dine-out, Pubs, Bars, Drinks,Buffet, Desserts you name it and Bengaluru has it. Bengaluru is best place for foodies. The number of restaurant are increasing day by day. Currently which stands at approximately 12,000 restaurants. With such an high number of restaurants. This industry hasn't been saturated yet. And new restaurants are opening every day. However it has become difficult for them to compete with already established restaurants. The key issues that continue to pose a challenge to them include high real estate costs, rising food costs, shortage of quality manpower, fragmented supply chain and over-licensing. This Zomato data aims at analysing demography of the location. Most importantly it will help new restaurants in deciding their theme, menus, cuisine, cost etc for a particular location. It also aims at finding similarity between neighborhoods of Bengaluru on the basis of food. The dataset also contains reviews for each of the restaurant which will help in finding overall rating for the place.
@@ -26,6 +26,12 @@ Worked on different models and Random Forest was the best suitable
 ### Phase IV,
 Model Deployment
 Deployed the model on HTML webpage
+
+![image](https://user-images.githubusercontent.com/123991455/235980529-bbf58c74-0186-44ef-8530-6b6dcf6b9be8.png)
+
+
+![image](https://user-images.githubusercontent.com/123991455/235980391-3965315d-1c4e-4044-b790-6d7e7a476ff1.png)
+
 
 
 ## Inspiration
