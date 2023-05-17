@@ -39,6 +39,45 @@ I was always astonished by how each of the restaurants are able to keep up the p
 ✔️ Restraurant Prediction\
 ✔️ Recommendation System\
 
+## Quick Summary
+
+    1. Using Selenium And BeautifulSoup libraries of Python we Extracted data present on page and stored it in series and merging them to get DatFrame
+    	a)MainPage Scrapper
+![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/bcf3804c-4734-40e8-b303-fd905eadb7c3)
+
+![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/539d66e8-cf48-4874-a548-eddbb9e4b365)
+
+    
+    	b)Restaurants info Scrapper
+    
+![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/577b3980-c832-4306-8b92-a1974549808b)
+
+![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/ce8083e6-d33f-4974-88f4-961433711cb1)
+
+![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/05620b7e-e18c-4fff-8fd4-29dfb7d3afa8)
+
+ 
+    2. After obtaining the DataFrame we performed some data cleansing operation using Power Querry Editor , Excel and obtained a single table.
+    	a) Raw Data 
+      ![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/8a3b450c-cc24-4d73-a731-450b2a95c910)
+      
+      ![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/e6ed4bf2-f460-472e-b808-6d78a3a5b9d6)
+
+      a) Cleaned Table and Joined Table 
+      
+	![image](https://github.com/SaketSuhane/Recommendation_Model_Zomato/assets/123991455/d79eb1bf-3fa4-4f29-83d5-5dc821c799e9)
+
+       
+    3. After joining the tables, we imported the dataset into Power BI in order to visualize the data.
+    
+    4. In Power Bi, we made some useful KPI's and some user friendly charts.
+    
+    5. Created a interactive and dynamic dashboard at the end using Power Bi and generated some useful insights.
+
+## Conclusion
+As per our analysis, if the person wants to open a remote kitchen in Bangalore he/she should prefer opening it in Shanti Nagar or Basavanagudi, since the place is having less no of restaurant which reduces the competition and it has some of the expensive restaurants in the Banglore, hence the person can deliver food at lower price which reduces the competition even further.
+
+The second suggestion would be sell North Indian, South Indian cuisine as they are demanded the most by the customers and they can keep the price ranging from 300 - 400 Rs for Non vegetarian category and 200 - 300 Rs for vegetarian category.
 
 ## Images 
 
